@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+          
+            border-collapse: collapse;
+            text-align: center;
+            /*padding: 10px;*/
+            
+            /*border-bottom: 1px solid pink;*/
+            height: 50px;
+            /*vertical-align: bottom;*/
+            
+
+        }
+
+        th{
+            background-color: rgba(50, 138, 103, 0.5);
+        }
+        tr:hover{
+            background-color: rgb(87, 87, 180);
+        }
+           /* tr:nth-child(odd){
+                background-color: gray;
+
+            }*/
+            
+    </style>
+</head>
+
+<body>
+    <div style="overflow-x: auto;">
+    <table style="width: 100%;">
+        <tr>
+            <th>srno</th>
+            <th>name</th>
+            <th colspan="3">ph no</th>
+        </tr>
+
+        <tr class="first">
+            <td>1</td>
+            <td>john</td>
+            <td>9422567389</td>
+            <td>57889--6</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Neha</td>
+            <td>73889777777</td>
+            <td>7498920-</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>riya</td>
+            <td colspan="3">420-77777</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>rohan</td>
+            <td colspan="3">4880-77777</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>mayur</td>
+            <td colspan="3">903002777</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>swapu</td>
+            <td colspan="3">736382777</td>
+        </tr>
+    
+
+    </table>
+    </div>
+</body>
+
+</html>
